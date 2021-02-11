@@ -1,0 +1,98 @@
+:root {
+--greenish: #a0c85d;
+--brownish: #c4ac9d;
+}
+body {
+  font-family: helvetica, monospace; font-weight: 300;
+  margin:0px;
+  height:auto;
+  width: auto;
+  background-color: var(--brownish);
+}
+
+h1,h2,h3,h4,h5,p {
+  font-family: "helvetica", monospace; font-weight: 300;
+}
+
+p {
+  font-size: 12pt;
+}
+
+* {
+  box-sizing: border-box;
+  background-color:transparent;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 20px;
+  background-color:transparent;
+}
+
+.left {
+  width: 30%;
+  background-color: transparent;
+  
+}
+
+.right {
+  width: 70%;
+  background-color: transparent;
+  border-left: solid black 1px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  background-color: var(--brownish);
+  clear: both;
+}
+
+.header {
+  padding-top: 2px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  text-align: left;
+  background: var(--brownish);
+  color: black;
+  border-bottom: solid black 1px;
+  margin:0px;
+}
+.footer {
+   position: sticky;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #1b1c1e;
+   color: #f2f2f2;
+   text-align: center;
+}
+
+
+
+
+
+
+
+.marqueecontainer {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: orange;
+  border-bottom: solid black 1px;
+}
+
+.scrolling {
+  animation: marquee 46s linear infinite;
+  display: inline-block;
+  padding-right: 3px;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to { 
+    transform: translateX(-100%);
+  }
+}
