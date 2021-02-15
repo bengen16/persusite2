@@ -7,23 +7,22 @@
 --lightgreenish:#f0ffee;
 }
 body {
-font-family: Space Grotesk, sans-serif;
+font-family: neue-haas-grotesk, sans-serif;
 
-font-weight: 400;
+font-weight: 300;
 
 font-style: normal;
 height:auto;
 width: auto;
 background-color: var(--brownish);
 margin: 0
-color:var(--greeny);
 }
 
 h1,h2,h3,h4,h5,p {
   
-font-family: Space Grotesk, sans-serif;
+font-family: neue-haas-grotesk, sans-serif;
 
-font-weight: 400;
+font-weight: 300;
 
 font-style: normal;
 
