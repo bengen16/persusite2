@@ -1,22 +1,34 @@
 :root {
 --greenish: #a0c85d;
 --brownish: #c4ac9d;
+--blueish:#5f75b9;
+--lightdark:#161513;
 }
 body {
-  font-family: helvetica, monospace; font-weight: 300;
-  margin:0px;
-  height:auto;
-  width: auto;
-  background-color: var(--brownish);
+font-family: neue-haas-grotesk-display, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+height:auto;
+width: auto;
+background-color: var(--brownish);
+margin: 0%;
 }
 
 h1,h2,h3,h4,h5,p {
-  font-family: "helvetica", monospace; font-weight: 300;
+  
+font-family: neue-haas-grotesk-display, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
 }
 
 p {
-  font-size: 10pt;
+  font-size: 12pt;
 }
+
 
 * {
   box-sizing: border-box;
@@ -56,14 +68,14 @@ p {
 }
 
 .header {
-  padding-top: 2px;
+  padding-top: 0px;
   padding-left: 20px;
   padding-bottom: 0px;
   text-align: left;
   background: var(--brownish);
   color: black;
   border-bottom: solid black 1px;
-  margin:0px;
+  margin:0%;
 }
 .footer {
    position: sticky;
@@ -109,6 +121,7 @@ p {
         margin-top: 70px;
         text-align: center;
         overflow: hidden;
+        padding-left: auto;
       }
       .image-container {
         width: 1950px;
@@ -120,6 +133,7 @@ p {
         -moz-transition: left 0.5s;
         -o-transition: left 0.5s;
         transition: left 0.5s;
+        padding-left: auto;
       }
       .slide {
         float: left;
