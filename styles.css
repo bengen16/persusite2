@@ -152,10 +152,10 @@ img
         height: 650px;
         clear: both;
         position: relative;
-        -webkit-transition: left 2s;
-        -moz-transition: left 2s;
-        -o-transition: left 2s;
-        transition: left 2s;
+        -webkit-transition: left 1s;
+        -moz-transition: left 1s;
+        -o-transition: left 1s;
+        transition: left 1s;
       }
       .slide {
         float: left;
@@ -182,4 +182,13 @@ img
         width: 10px;
         border-radius: 10px;
         background-color: black;
+      }
+      #slide-4:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-5:target ~ .image-container {
+        left: -650px;
+      }
+      #slide-6:target ~ .image-container {
+        left: -1300px;
       }
